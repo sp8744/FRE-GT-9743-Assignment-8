@@ -1,0 +1,27 @@
+{
+    "USD-LIBOR-BBA-3M": {"type" : "native", "index" : "USDLibor"},
+    "SOFR-1B": {"type" : "native", "index" : "Sofr"},
+    "FF-1B": {"type" : "native", "index" : "FedFunds"},
+    "GBP-LIBOR-BBA-3M": {"type" : "native", "index" : "GBPLibor"},
+    "SONIA-1B": {"type" : "native", "index" : "Sonia"},
+    "CAD-LIBOR-BA-3M" : {"type" : "native", "index" : "CADLibor"},
+    "CORRA-1B": {"type" : "native", "index" : "Corra"},
+    "EURIBOR-6M": {"type" : "native", "index" : "Euribor"},
+    "EONIA-1B": {"type" : "native", "index" : "Eonia"},
+    "AUD-LIBOR-BBA-3M": {"type" : "native", "index" : "AUDLibor"},
+    "AONIA-1B": {"type" : "native", "index" : "Aonia"},
+    "JPY-LIBOR-BBA-3M": {"type" : "native", "index" : "JPYLibor"},
+    "TONIA-1B": {"type" : "native", "index" : "Tonar"},
+    "EUR-USD": {
+        "type" : "FX INDEX",
+        "base currency" : "EUR",
+        "base businessday convention" : "F",
+        "base holidays" : "TARGET",
+        "base fixing offset" : "2D",
+        "quoted currency" : "USD",
+        "quoted businessday convention" : "F",
+        "quoted holidays" : "NYC",
+        "quoted fixing offset" : "0D",
+        "premium currency" : "USD"
+    }
+}  

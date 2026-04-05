@@ -1,0 +1,6 @@
+{
+    "SOFR-1B-FLAT": {"Currency" : "USD", "Reference Index" : "SOFR-1B" },
+    "FF-1B-FLAT": {"Currency" : "USD", "Reference Index" : "FF-1B" },
+    "EONIA-1B-FLAT": {"Currency" : "EUR", "Reference Index" : "EONIA-1B" },
+    "USD-GOVT-BOND-FUNDING": {"Currency" : "USD","Reference Index": "" }
+}

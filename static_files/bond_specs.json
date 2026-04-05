@@ -1,0 +1,12 @@
+{
+    "Bond1": {
+        "ISIN": "US9128284W34",
+        "BOND_CONVENTION": "USD-GOVT-BOND-FIXED",
+        "ISSUE_DATE": "2026-02-17",
+        "FIRST_ACCRUAL_DATE": "2026-02-15",
+        "FIRST_COUPON_DATE": "2026-08-15",
+        "MATURITY_DATE": "2029-02-15",
+        "COUPON_RATE": 0.035,
+        "REDEMPTION_PERCENTAGE": 1.0
+    }
+}

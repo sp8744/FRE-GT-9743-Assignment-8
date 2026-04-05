@@ -1,0 +1,98 @@
+{
+  "USD-SOFR-OIS": {
+    "type": "RFR SWAP",
+    "index": "SOFR-1B",
+    "accrual_basis": "ACT/360",
+    "accrual_period": "1Y",
+    "payment_offset": "2D",
+    "payment_business_day_convention": "F",
+    "payment_holiday_convention": "USGS",
+    "compounding_method": "COMPOUND"
+  },
+  "USD-FF-3M-OVER-USD-SOFR-OIS-3M": {
+    "type": "OVERNIGHT INDEX BASIS SWAP",
+    "basis_oi_index": "SOFR-1B",
+    "reference_oi_index": "FF-1B",
+    "accrual_basis": "ACT/360",
+    "accrual_period_1": "3M",
+    "accrual_period_2": "3M",
+    "payment_offset": "2D",
+    "payment_business_day_convention": "F",
+    "payment_holiday_convention": "USGS",
+    "compounding_method": "COMPOUND"
+  },
+  "SOFR-FUTURE-3M": {
+    "type": "RFR FUTURE",
+    "index": "SOFR-1B",
+    "accrual_basis": "ACT/360",
+    "accrual_period": "3M",
+    "payment_offset": "2D",
+    "payment_business_day_convention": "F",
+    "payment_holiday_convention": "USGS",
+    "compounding_method": "COMPOUND",
+    "contractual_notional": 1000000,
+    "basis_point": 0.25
+  },
+  "USD-SOFR-SWAPTION": {
+    "type": "RFR SWAPTION",
+    "index": "SOFR-1B",
+    "payment_offset": "2D",
+    "payment_business_day_convention": "F",
+    "payment_holiday_convention": "USGS"
+  },
+  "USD-SOFR-CAPFLOOR": {
+    "type": "RFR CAPFLOOR",
+    "index": "SOFR-1B",
+    "payment_offset": "2D",
+    "payment_business_day_convention": "F",
+    "payment_holiday_convention": "USGS"
+  },
+  "USD-SOFR-JUMP": {
+    "type": "JUMP",
+    "index": "SOFR-1B",
+    "jump_size": 10000
+  },
+  "USD-SOFR-IFR": {
+    "type": "INSTANTANEOUS FORWARD RATE",
+    "index": "SOFR-1B",
+    "business_day_convention": "F",
+    "holiday_convention": "USGS"
+  },
+  "USD-FF-IFR": {
+    "type": "INSTANTANEOUS FORWARD RATE",
+    "index": "FF-1B",
+    "business_day_convention": "F",
+    "holiday_convention": "USGS"
+  },
+  "SOFR-1B-FLAT-OVER-SOFR-1B-ZERO-SPREAD": {
+    "type": "ZERO SPREAD",
+    "index": "SOFR-1B",
+    "business_day_convention": "F",
+    "holiday_convention": "USGS"
+  },
+  "FF-1B-FLAT-OVER-FF-1B-ZERO-SPREAD": {
+    "type": "ZERO SPREAD",
+    "index": "FF-1B",
+    "business_day_convention": "F",
+    "holiday_convention": "USGS"
+  },
+  "USD-GOVT-BOND-FIXED": {
+    "type":"BOND FIXED",
+    "BOND_ISSUER": "US Treasury",
+    "CURRENCY": "USD",
+    "BOND_TYPE": "COUPON_BOND",
+    "BOND_COUPON_TYPE": "FIXED",
+    "PRINCIPAL": 100,
+    "SETTLEMENT_OFFSET": "1B",
+    "COUPON_ACCRUAL_PERIOD": "6M",
+    "COUPON_ACCRUAL_CONVENTION": "ACT/ACT",
+    "ROLL_CONVENTION": "EOM",
+    "PAYMENT_BUSINESS_DAY_CONVENTION": "F",
+    "PAYMENT_HOLIDAY_CONVENTION": "USGS"
+  },
+  "EUR-USD" : 
+    {
+      "type" : "FX PAIR",
+      "index" : "EUR-USD"
+    }
+}
